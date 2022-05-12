@@ -1,0 +1,155 @@
+
+@media only screen and (max-width: 991px) {
+
+.container {
+    max-width: calc(100% - 25px) !important;
+}
+.navbarListWrap{
+    z-index: 99;
+    padding: 0 5px 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.SliderBotSec h2 {
+    font-size: 20px;
+}
+.myButtonEffect {
+    padding: 10px 18px;
+}
+.SliderBotSec {
+    padding: 24px 0;
+}
+.SliderBotSec h2 {
+    margin-bottom: 4px;
+}
+.main-slider {
+    height: 631px;
+    overflow: hidden;
+}
+.downloadBtnWrap {
+    margin-top: 11px;
+}
+.aboutSection .sectionHeadAbout h2 {
+    margin-bottom: 0px;
+    font-size: 27px;
+}
+.aboutSection .sectionHeadAbout h2::after, .aboutSection .sectionHeadAbout h2::before{
+    display: none;
+}
+
+.aboutSection .experienceBox {
+    width: 100%;
+    padding: 35px 0px 20px;
+    margin-top: 0px;
+    right: 0;
+}
+.aboutSection .experienceBox h2 {
+    font-size: 40px;
+}
+.aboutSection .experienceBox h3 {
+    font-size: 12px;
+}
+.aboutSection .sectionHeadAbout h3 {
+    font-size: 18px;
+    margin-top: 6px;
+}
+.aboutSection .aboutDesc {
+    margin-top: 0px;
+}
+.sectionHead h2 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 28px;
+    font-size: 38px;
+}
+
+.productContainer .productBoxWrap .productContent {
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    right: 15px;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+.productContent h2 {
+    font-size: 28px;
+    font-weight: 500;
+}
+.productBoxWrap {
+    background-color: #fffbfb;
+    padding: 12px 2px;
+    border-radius: 4px;
+    border: 1.5px dashed #059862;
+}
+.productContent .prodDesc {
+    font-size: 13px;
+     font-weight: 400;
+}
+.productSection img{
+    margin-top: 56px;
+}
+.productSection .sectionHead {
+    margin-bottom: 8px!important;
+}
+.whyChooseSection .card {
+    padding: 18px 0px;
+    border: 1px solid #255946;
+    transition: all .3s ease;
+}
+.productSection .marginBottom {
+     margin-bottom: 30px; 
+}
+.whyChooseSection .clipPath {
+    width: 50%;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 360px solid transparent;
+    border-bottom: 535px solid rgba(37, 89, 70, 0.9);
+    position: absolute;
+}
+
+
+
+
+
+.contactSection .sectionHead p{
+    width: 100%;
+}
+.contactSection .contactLeft h3{
+    font-size: 30px;
+}
+.contactSection .contactLeft h4 {
+    font-size: 22px;
+}
+.relatedProduct .card .card-img-top {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.contactSection .contactLeft h5{
+    font-size: 25px;
+}
+footer .footerSocialIcon ul li a i {
+    color: #fff;
+    padding: 12px;
+    background-color: #059862;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.prodBox h4.card-title {
+    font-size: 19px;
+}
+.prodBox .card .card-img-top{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+
+
+}
+

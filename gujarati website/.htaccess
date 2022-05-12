@@ -1,0 +1,7 @@
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+
+# RewriteCond %{HTTP_HOST} ^gh.apogeeleveller.com/ [NC]
+# RewriteRule ^(.*)$ http://www.gj.apogeeleveller.com/$1 [L,R=301]
